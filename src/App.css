@@ -1,0 +1,70 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: url("https://burst.shopifycdn.com/photos/teamwork-makes-the-dream-work.jpg?width=925&format=pjpg&exif=1&iptc=1");
+  background-size: cover;
+  background-position: center;
+}
+
+form {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  background-color: rgba(255, 255, 255, 0.6);
+  padding-left: 30px;
+  padding-right: 35px;
+  border-radius: 15px;
+}
+
+h1 {
+
+  color: rgb(77, 1, 77);
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.6);
+  font-size: 20px;
+}
+
+label {
+  align-items: center;
+  font-size: 25px;
+  color: black;
+}
+
+select {
+  padding: 15px;
+  margin: 10px 0px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.6);
+  font-size: 20px;
+}
+
+textarea {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+#button {
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  border: none;
+  background-color: blueviolet;
+  color: white;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 22px;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
